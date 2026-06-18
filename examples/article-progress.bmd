@@ -1,0 +1,80 @@
+---
+theme: cartoon
+accent: violet
+font: inter
+title: The Quiet Architecture of Attention
+description: A Beautiful Markdown article demo with pagination and reading progress.
+readingProgress: true
+debug: false
+---
+
+# The Quiet Architecture of Attention
+
+Good documents do not shout. They create a path. A reader arrives with half an idea, a question, or a little resistance, and the page gives them somewhere steady to stand.
+
+:::note
+This article is a BMD demo: plain Markdown, manual components, pagination, and a reading progress bar fixed to the bottom of the page.
+:::
+
+## 1. Start With Shape
+
+Before color, before icons, before motion, a document needs shape. Headings should tell the reader where they are. Paragraphs should feel breathable. Lists should help scanning without turning every idea into a chopped fragment.
+
+The best layout decision is often restraint. One column. Strong rhythm. Enough contrast. A table only when comparison matters. A card only when the content truly benefits from a frame.
+
+:::card shadow
+### BMD Rule
+Markdown stays the source. Beauty is a rendering promise, not extra author work.
+:::
+
+## 2. Add Meaning, Not Decoration
+
+Semantic components are useful because they describe intent. `note`, `tip`, `warning`, and `danger` say what role the content plays. The theme decides how that role looks.
+
+:::tip
+Use semantic names first. Reach for visual modifiers only when content really needs stronger emphasis.
+:::
+
+When components follow meaning, documents age better. A future theme can make warnings warmer, notes quieter, or tips brighter without changing the source.
+
+## 3. Make Interaction Small
+
+Interactive documents should still read well when nothing moves. Tabs can compare options. Accordions can hide details. Progress can orient the reader. None of that needs a full app framework.
+
+:::tabs
+@tab Markdown
+The source stays readable in a text editor.
+
+@tab Output
+The rendered page feels designed.
+
+@tab Reader
+The page gives progress, structure, and calm.
+:::
+
+:::accordion
+? Why no arbitrary JavaScript?
+Because documents should be portable and safe. BMD owns the small behavior it emits.
+
+? Why manual components?
+Manual components avoid dependency weight and keep styling aligned with BMD themes.
+:::
+
+## 4. Let Progress Be Honest
+
+The progress bar at the bottom measures how much of the article has been read. It uses scroll position, updates as the reader moves, and stays out of the content.
+
+:::warning
+Progress is orientation, not pressure. It should help readers know where they are, not make reading feel like a task timer.
+:::
+
+## 5. End With Movement
+
+Pagination gives a document a sense of place in a larger sequence. It should sit on one clean line, with equal-sized targets and predictable spacing.
+
+:::pagination
+1 2 3 4 5
+:::
+
+
+Beautiful Markdown is not trying to become an application platform. It is trying to make ordinary writing feel finished. That is enough work for one format.

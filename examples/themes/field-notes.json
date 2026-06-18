@@ -1,0 +1,10 @@
+{
+  "name": "field-notes",
+  "extends": "minimal",
+  "tokens": {
+    "accent": "#0f766e",
+    "fontBody": "Georgia, 'Times New Roman', serif",
+    "radius": "3px",
+    "shadow": "none"
+  }
+}
